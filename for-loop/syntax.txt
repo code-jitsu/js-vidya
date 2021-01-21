@@ -1,0 +1,12 @@
+parts of for loop
+- intialization: set a starting value
+- condition: sets an expression to check if end value is reached
+- increment/decrement: resets the  value of the loop variable
+
+for (let i = 0; i < 100; i++) {
+    // logic
+}
+
+for (let i = 100; i > 0; i--) {
+    // logic
+}
