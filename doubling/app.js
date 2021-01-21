@@ -1,9 +1,7 @@
 function double() {
     let num =new Number (document.getElementById("d").value)
-    let a = 1
-    let b = 1 
-    answer = []
-     for (let index = a + b; index <= num; ) {
+    let answer = []
+     for (let index = 1; index <= num;  index = index * 2) {
          answer.push(index)
          
      }
